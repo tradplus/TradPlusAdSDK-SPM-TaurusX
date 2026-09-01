@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.13.0")
+            .exact("15.14.0")
         ),
         .package(
             url: "https://github.com/taurusxteam/taurusx-ads-sdk-ios.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPTaurusXAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-TaurusX/releases/download/15.13.0/TPTaurusXAdapter-15.13.0.xcframework.zip",
-            checksum: "156cb30f23edec1c979909c971dea288430470c0cea3689ee77d3d3b5474e5e0"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-TaurusX/releases/download/15.14.0/TPTaurusXAdapter-15.14.0.xcframework.zip",
+            checksum: "37130a79fabeb7e79cad49a48a8948ddce814a5c35d3ded2b430392293ab75a3"
         ),
     ]
 )
